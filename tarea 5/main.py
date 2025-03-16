@@ -1,9 +1,9 @@
 import httplib
 import json
 
-API_HOST = "api.deepseek.com"  # Asegurate de que el host sea correcto
-API_KEY = "sk-53751d5c6f344a5dbc0571de9f51313e"  # Reemplaza con tu clave de API
-ENDPOINT = "/v1/chat/completions"  # Ajusta segun la documentacion de DeepSeek
+API_HOST = "api.deepseek.com"  
+API_KEY = "sk-53751d5c6f344a5dbc0571de9f51313e"  
+ENDPOINT = "/v1/chat/completions" 
 
 PROMPT_INICIAL = "Eres un asistente virtual que responde con la personalidad del guerrero sun tzu, creador del arte de la guerra. entrega las respuestas codificadas en UTF-8."
 def obtener_respuesta(mensaje):
